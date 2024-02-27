@@ -36,6 +36,9 @@
       - preload 
     -->
 
+    <link rel="preload" as="image" href="./assets/images/hero-banner-1.jpg">
+    <link rel="preload" as="image" href="./assets/images/hero-banner-2.jpg">
+
 </head>
 <body>
 
@@ -112,8 +115,8 @@
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.
                     </p>
 
-                    <a href="a" class="btn">
-                        <span class="span">View our Collection</span>
+                    <a href="#" class="btn">
+                        <span class="span">View Collection</span>
 
                         <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
                     </a>
@@ -121,19 +124,65 @@
                 </div>
   
                 <div class="wrapper">
-                    <div class="hero-banner-1 img -holder" style="--width: 400;--height: 550;"></div>
-                    <img src="./assets/images/hero-banner-1.jpg" alt="view of assortment of decor for innterior shop" class="img-cover">
+                    <div class="hero-banner-1 img-holder" style="--width: 400;--height: 550;">
+                    <img src="./assets/images/hero-banner-1.jpg" width="400" height="550" alt="view of assortment of decor for innterior shop" class="img-cover">
                 </div>
 
-                <div class="hero-banner-1 img -holder" style="--width: 500; --height: 850;"></div>
+                <div class="hero-banner-2 img-holder" style="--width: 500; --height: 850;">
                 <img src="./assets/images/hero-banner-2.jpg" width="500" height="850" alt = "ceramic craft ware" class="img-cover">
             </div>
 
-            <img src="./assets/images/hero-shape.png" alt="" class="shape">
-
+            <img src="./assets/images/hero-shape.png" width="570" height="676" alt="laves" class="shape">
             </div>
+
+        
+        </div>
         </section>
 
+
+
+
+
+
+        <!--
+            -ABOUt
+        -->
+        <section class="section about" aria-label="about">
+            <div class="container">
+
+              <div class="wrapper">
+                <figure class="about-banner about--banner-1 img--holder" style="--width: 600; --height: 400;">
+                <img src="./assets/images/about-1.jpg" width="600" height="480" loading="lazy" alt="craftman in workshop" class="img-cover">
+                </figure>
+
+                  <h2 class="h2 section-title">Make Handicrafts Since 1992</h2>
+              </div>  
+                <figure class="about-banner about-banner-2 img-holder" style="--width: ; --height: ;">
+                    <img src="./assets/images/about-2.jpg" width="500" height="700" loading="lazy" alt="interior view of a leather shop selling belts brac" class="img-cover">
+                </figure>
+
+                <div class="about-content">
+
+                    <h3 class="h2 section-tittle">Innovative Design is Our Passion</h3>
+
+                    <p class="section-text">
+                        Curabitur interdum malesuada lectus ut pharetra. Sed tellus ante, aliquet a sem id, ultricies varius dolor. Nam volutpat hendrerit massa. Crasposuere ornare elementum.
+                    </p>
+
+                    <a href="a" class="btn">
+                        <span class="span">Read More</span>
+
+                        <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
+                    </a>
+
+                    <figure class="about-banner about-banner-3 img-holder" style="--width: ; --height: ;">
+                        <img src="./assets/images/about-3.jpg" width="850" height="420" loading="lazy" alt="" class="img-cover">
+                    </figure>
+
+
+                </div>
+            </div>
+        </section>
 
     </article>
   </main>
